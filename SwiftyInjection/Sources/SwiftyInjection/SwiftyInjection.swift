@@ -1,5 +1,5 @@
 public struct SwiftyInjection {
-    public private(set) var text = "Hello, World!"
+    public let shared = Container()
 
     public init() {
     }
